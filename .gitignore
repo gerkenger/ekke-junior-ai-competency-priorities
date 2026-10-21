@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+human_control_results/
+results/
+*.xlsx
+*.ods
+AI Coding Agents and Software Robots in Professional Software Engineering_205.csv
