@@ -1,4 +1,4 @@
-# Junior developer competency priorities: reproducible paired analysis
+# Junior developer competency priorities: paired analysis
 
 This repository contains the Python analysis supporting the exploratory mini-paper *Independent Code Debugging and AI-Output Verification in Junior Developer Hiring: A Paired Comparison of Perceived Competency Importance*.
 
