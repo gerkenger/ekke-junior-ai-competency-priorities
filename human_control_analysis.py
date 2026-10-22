@@ -188,7 +188,7 @@ def analyze(input_path: Path, output_dir: Path) -> dict[str, Any]:
         f"- Feltételes irányarány (Q36/02 magasabb): **{observed_theta:.4f} ({100*observed_theta:.1f}%)**\n"
         f"- Kétoldali egzakt előjelpróba: **p = {test.pvalue:.12g}**\n"
         f"- 95%-os Clopper–Pearson CI (feltételes irányarány): **[{ci.low:.4f}; {ci.high:.4f}]**\n"
-        f"- Kétoldali, előre kijelölt szignifikanciaszint: **0,05**; H0-elutasítás: **{'igen' if test.pvalue < 0.05 else 'nem'}**\n"
+        f"- Az elemzésben alkalmazott nominális szignifikanciaszint: **0,05**; H0-elutasítás: **{'igen' if test.pvalue < 0.05 else 'nem'}**\n"
         f"- Teljes mintás leíró nettó iránykülönbség: **{100*(higher_a-higher_b)/pairs:.1f} százalékpont**\n\n"
         "Az eredmény a két konkrét juniorfelvételi KOMPETENCIAELVÁRÁS fontossági besorolását hasonlítja össze; "
         "nem méri a tényleges kompetenciát, az MI-kimenetek tényleges humán ellenőrzését, "
